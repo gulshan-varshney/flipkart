@@ -10,11 +10,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
-import org.testng.asserts.SoftAssert;
-
 import com.ecom.flipkart.POMReposatory.HomePage;
-import com.ecom.flipkart.POMReposatory.LoginPage;
 
 public class BaseClass extends WebDriverUtility{
 	public WebDriver driver;
